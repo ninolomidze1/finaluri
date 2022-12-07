@@ -3,7 +3,6 @@
   width: 100%;
   margin: 0 auto;
   border: 2px solid red;
-
   position: relative;
 }
 
@@ -21,9 +20,7 @@ header {
 }
 .logo {
   color: #fa6980;
-
   font-weight: bold;
-
   object-fit: cover;
   object-position: center;
   animation-name: logo;
@@ -73,7 +70,6 @@ nav {
 ul {
   display: flex;
   gap: 30px;
-
   color: #85878a;
 }
 
@@ -89,7 +85,6 @@ ul {
 .section1 {
   width: 100%;
   margin-top: 56px;
-
   display: flex;
 }
 .image_div {
@@ -154,7 +149,6 @@ ul {
   width: 30%;
   margin: 100px 100px 50px 100px;
   display: flex;
-
   flex-direction: column;
   background-color: #ffffff;
 }
@@ -206,7 +200,6 @@ ul {
 
 .section2 {
   width: 90%;
-
   margin: 0 auto;
 }
 
@@ -420,7 +413,7 @@ footer {
 
 .world_section {
   width: 80%;
-  
+
   display: flex;
   margin: 103px auto 40px auto;
 }
@@ -529,26 +522,25 @@ footer {
 
 /*section3*/
 
-.page2_section3{
+.page2_section3 {
   width: 80%;
   margin: 0 auto 200px auto;
-  
+
   display: flex;
 }
-.elephant{
+.elephant {
   width: 100%;
   border-bottom: 2px solid #ebeded;
 }
-.elephant_pic{
+.elephant_pic {
   width: 100%;
   margin-bottom: 50px;
 }
-.elephant_text{
+.elephant_text {
   color: #a6adb4;
   font-size: 0.9rem;
- 
 }
-.elephant_text1{
+.elephant_text1 {
   color: #a6adb4;
   font-size: 0.9rem;
   margin-bottom: 40px;
