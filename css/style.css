@@ -2,8 +2,9 @@
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  background-color: #F6F8F9;
   border: 2px solid red;
-  position: relative;
+  /*position: relative;*/
 }
 
 header {
@@ -14,8 +15,9 @@ header {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  position: fixed;
-  top: 0;
+ position: fixed;
+  top: 0%;
+  z-index: 1;
   padding: 21px 19px 19px 19px;
 }
 .logo {
@@ -49,7 +51,7 @@ header {
 }
 
 nav {
-  position: relative;
+ /* position: relative;*/
 }
 .home {
   color: #343638;
@@ -86,6 +88,7 @@ ul {
   width: 100%;
   margin-top: 56px;
   display: flex;
+  background-color: white;
 }
 .image_div {
   width: 60%;
@@ -152,11 +155,17 @@ ul {
   flex-direction: column;
   background-color: #ffffff;
 }
+.divvs{
+  display: flex;
+  flex-direction: column;
+}
 .upper_div {
+  width: 100%;
   margin-top: 50px;
 }
 .below_div {
-  margin-top: 50px;
+  width: 100%;
+margin-top: 50px;
 }
 
 .morenews_text {
@@ -216,6 +225,8 @@ ul {
 }
 .div1 {
   width: 30%;
+  background-color: white;
+  border-radius: 15px;
 }
 .pic {
   width: 100%;
@@ -240,9 +251,7 @@ ul {
 .divtext {
   font-size: 0.8rem;
   color: #a6adb4;
-  padding-top: 12px;
-  padding-left: 40px;
-  padding-right: 39px;
+  padding: 12px 40px 39px 40px;
   color: #a6adb4;
   font-size: 0.81rem;
 }
@@ -268,12 +277,14 @@ ul {
   width: 70%;
 }
 .large_pic1 {
-  width: 760px;
+  width: 90%;
   height: 430px;
   color: #ffffff;
   background-image: url(../imgs/large_image1.png);
   background-position: center;
   background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
 }
 .city {
   padding: 40px;
@@ -292,12 +303,14 @@ ul {
 }
 
 .large_pic2 {
-  width: 760px;
+  width: 90%;
   height: 430px;
   color: #ffffff;
   background-image: url(../imgs/large_image2.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
   margin-top: 50px;
 }
 
@@ -310,11 +323,12 @@ ul {
   width: 30%;
 }
 .figure_pic1 {
-  width: 360px;
+  width: 100%;
   height: 210px;
   background-image: url(../imgs/small_pic1.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .small_title {
@@ -322,19 +336,21 @@ ul {
   font-weight: bold;
 }
 .figure_pic2 {
-  width: 360px;
+  width: 100%;
   height: 210px;
   background-image: url(../imgs/small_pic2.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   margin-top: 70px;
 }
 .figure_pic3 {
-  width: 360px;
+  width: 100%;
   height: 210px;
   background-image: url(../imgs/small_pic3.png);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   margin-top: 70px;
 }
 
@@ -509,6 +525,7 @@ footer {
 }
 
 .page2_text {
+  width: 90%;
   color: #202124;
   font-size: 1.5rem;
   font-weight: bold;
@@ -545,3 +562,142 @@ footer {
   font-size: 0.9rem;
   margin-bottom: 40px;
 }
+
+
+/*phone resolution*/
+
+@media screen and (max-width: 480px){
+  .container{
+    max-width: 480px;
+    width: 100%;
+  }
+nav{
+  display: none;
+}
+ul{display: none;
+}
+.section1{
+  display: flex;
+  flex-direction: column;
+}
+.image_div{
+  width: 100%;
+  height: 288px;
+}
+.text_div{
+  width: 100%;
+}
+.articles{
+  width: 100%;
+margin: 10px 0 20px 0;
+}
+.trending {
+  display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+.div1{
+  width: 100%;
+}
+.section3{
+
+  width: 100%;
+}
+.happening_now {
+  display: flex;
+  flex-direction: column;
+}
+.sec3_title{
+  margin-left: 24px;
+}
+.large_pic1 {
+  width: 427px;
+  height: 300px;
+ margin-left: 24px;
+}
+.large_pic2 {
+  width: 427px;
+  height: 300px;
+  margin: 24px;
+}
+.figure_pic1 {
+  width: 427px;
+  margin-left: 24px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.figure_pic2{
+  width: 427px;
+  margin-left: 24px;
+  border-radius: 10px;
+}
+.figure_pic3{
+  width: 427px;
+  margin-left: 24px;
+  border-radius: 10px;
+}
+.article_title {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.footer_logo{
+  display: none;
+  
+}
+.footer_nav{
+  display: none;
+}
+.footer_icones{
+  margin: 22px 133px;
+}
+/*meore gverdi*/
+.world_section{
+  display: flex;
+  flex-direction: column;
+}
+.worldnew_photo{
+  width: 100%;
+  height: 388px;
+}
+.form_right {
+  width: 100%;
+}
+.form_div{
+  width: 100%;
+}
+.information_div{
+  display: flex;
+  flex-direction: column;
+}
+.page2_text{
+  width: 290%;
+  margin-bottom: 30px;
+}
+.page2_infotext{
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 780px){
+  .container{
+    max-width: 780px;
+  }
+  .section1{
+    display: flex;
+    flex-direction: column;
+  }
+  .image_div{
+    width: 100%;
+    height: 399px;
+  }
+  .divvs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 235px;
+  }
+  .upper_div{
+    
+  }
+}
+  
