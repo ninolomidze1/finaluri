@@ -2,9 +2,7 @@
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
-  background-color: #F6F8F9;
-  border: 2px solid red;
-  /*position: relative;*/
+  background-color: white;
 }
 
 header {
@@ -15,7 +13,7 @@ header {
   justify-content: space-between;
   align-items: center;
   align-content: center;
- position: fixed;
+  position: fixed;
   top: 0%;
   z-index: 1;
   padding: 21px 19px 19px 19px;
@@ -51,11 +49,12 @@ header {
 }
 
 nav {
- /* position: relative;*/
+  /* position: relative;*/
 }
 .home {
   color: #343638;
   font-weight: bold;
+  font-family: 'Roboto Slab', serif;
 }
 .nav_text:hover {
   text-decoration-line: underline;
@@ -73,6 +72,7 @@ ul {
   display: flex;
   gap: 30px;
   color: #85878a;
+  font-family: 'Roboto Slab', serif;
 }
 
 .world_news {
@@ -86,7 +86,7 @@ ul {
 
 .section1 {
   width: 100%;
-  margin-top: 56px;
+  /*margin-top: 56px;*/
   display: flex;
   background-color: white;
 }
@@ -112,6 +112,7 @@ ul {
   gap: 50px;
 }
 .title1 {
+  font-family: 'Roboto Slab', serif;
   font-size: 1.5rem;
   color: #ffffff;
 }
@@ -124,16 +125,19 @@ ul {
   margin-top: 2.5rem;
 }
 .title2 {
+  font-family: 'Roboto Slab', serif;
   font-size: 1.5rem;
   color: #ffffff;
   margin-top: 15px;
 }
 .info_text {
+  font-family: 'Roboto Slab', serif;
   font-size: 1rem;
   color: #ffffff;
   margin-top: -30px;
 }
 .learn_more {
+  font-family: 'Roboto Slab', serif;
   border: none;
   background-color: #fa6980;
   color: #ffffff;
@@ -155,7 +159,8 @@ ul {
   flex-direction: column;
   background-color: #ffffff;
 }
-.divvs{
+.divvs {
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -165,10 +170,11 @@ ul {
 }
 .below_div {
   width: 100%;
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 .morenews_text {
+  font-family: 'Abel', sans-serif;
   color: #202124;
   font-size: 1.5rem;
   font-weight: bold;
@@ -182,27 +188,35 @@ margin-top: 50px;
   margin-top: 10px;
 }
 .travel {
+  font-family: 'Abel', sans-serif;
+  width: 100%;
   font-size: 1rem;
   color: #fa6980;
   font-weight: bold;
 }
 
 .title {
+  width: 100%;
   font-size: 1rem;
   color: black;
   margin-bottom: -40px;
   margin-top: 10px;
   font-weight: bold;
+  font-family: 'Abel', sans-serif;
 }
 .lorem {
+  width: 100%;
   font-size: 1rem;
   color: #a6adb4;
+  font-family: 'Abel', sans-serif;
 }
 .time {
+  width: 100%;
   display: flex;
   color: #a6adb4;
   margin-top: 10px;
   gap: 6px;
+  font-family: 'Abel', sans-serif;
 }
 
 /*section2*/
@@ -218,12 +232,18 @@ margin-top: 50px;
   margin-top: 50px;
   margin-bottom: 40px;
   font-weight: bold;
+  font-family: 'Abel', sans-serif;
 }
 .trending {
   display: flex;
   justify-content: space-between;
 }
 .div1 {
+  width: 30%;
+  background-color: white;
+  border-radius: 15px;
+}
+.div1_1 {
   width: 30%;
   background-color: white;
   border-radius: 15px;
@@ -242,13 +262,17 @@ margin-top: 50px;
   margin-top: 40px;
 }
 .div_text1 {
+  width: 100%;
   font-size: 1rem;
   color: #202124;
   font-weight: bold;
   padding-left: 40px;
+  font-family: 'Abel', sans-serif;
 }
 
 .divtext {
+  width: 100%;
+  font-family: 'Abel', sans-serif;
   font-size: 0.8rem;
   color: #a6adb4;
   padding: 12px 40px 39px 40px;
@@ -269,6 +293,7 @@ margin-top: 50px;
 
 .sec3_title {
   font-size: 1.5rem;
+  font-family: 'Abel', sans-serif;
   color: #202124;
   font-weight: bold;
   margin-bottom: 40px;
@@ -283,14 +308,15 @@ margin-top: 50px;
   background-image: url(../imgs/large_image1.png);
   background-position: center;
   background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 5px;
+  background-repeat: no-repeat;
+  border-radius: 5px;
 }
 .city {
   padding: 40px;
   font-size: 1rem;
   color: #ffffff;
   font-weight: bold;
+  font-family: "Font Awesome 6 free";
 }
 .article_title {
   margin-top: 230px;
@@ -300,6 +326,7 @@ margin-top: 50px;
   font-size: 1.5rem;
   color: #ffffff;
   font-weight: bold;
+  font-family: "Font Awesome 6 free";
 }
 
 .large_pic2 {
@@ -334,6 +361,7 @@ margin-top: 50px;
 .small_title {
   margin-top: 250px;
   font-weight: bold;
+  font-family: "Font Awesome 6 free";
 }
 .figure_pic2 {
   width: 100%;
@@ -369,10 +397,13 @@ footer {
   font-size: 0.813rem;
   color: white;
   font-weight: bold;
+  font-family: 'Roboto Slab', serif;
   display: flex;
   align-items: center;
 }
-
+.ipsum{
+  font-family: 'Roboto Slab', serif;
+}
 .footer_nav {
   width: 80%;
   margin: 0 auto;
@@ -449,6 +480,7 @@ footer {
 }
 .worldnews_text {
   font-size: 40px;
+  font-family: 'Roboto Slab', serif;
   color: #ffffff;
 }
 
@@ -488,6 +520,7 @@ footer {
   border-radius: 15px;
   background-color: #fa6980;
   font-size: 13px;
+  font-family: 'Roboto Slab', serif;
   color: white;
 }
 
@@ -509,6 +542,7 @@ footer {
   flex-wrap: wrap;
   padding-top: 42px;
 }
+
 .logo_text {
   width: 30%;
   display: flex;
@@ -529,12 +563,14 @@ footer {
   color: #202124;
   font-size: 1.5rem;
   font-weight: bold;
+  font-family: 'Abel', sans-serif;
 }
 .page2_infotext {
   width: 30%;
   color: #a6adb4;
   font-size: 0.9rem;
   margin-bottom: 40px;
+  font-family: 'Roboto Slab', serif;
 }
 
 /*section3*/
@@ -556,148 +592,226 @@ footer {
 .elephant_text {
   color: #a6adb4;
   font-size: 0.9rem;
+  font-family: 'Roboto Slab', serif;
 }
 .elephant_text1 {
   color: #a6adb4;
   font-size: 0.9rem;
   margin-bottom: 40px;
+  font-family: 'Roboto Slab', serif;
 }
-
 
 /*phone resolution*/
 
-@media screen and (max-width: 480px){
-  .container{
+@media screen and (max-width: 480px) {
+  .container {
     max-width: 480px;
     width: 100%;
   }
-nav{
-  display: none;
-}
-ul{display: none;
-}
-.section1{
-  display: flex;
-  flex-direction: column;
-}
-.image_div{
-  width: 100%;
-  height: 288px;
-}
-.text_div{
-  width: 100%;
-}
-.articles{
-  width: 100%;
-margin: 10px 0 20px 0;
-}
-.trending {
-  display: flex;
- flex-direction: column;
- gap: 20px;
-}
-.div1{
-  width: 100%;
-}
-.section3{
 
-  width: 100%;
-}
-.happening_now {
-  display: flex;
-  flex-direction: column;
-}
-.sec3_title{
-  margin-left: 24px;
-}
-.large_pic1 {
-  width: 427px;
-  height: 300px;
- margin-left: 24px;
-}
-.large_pic2 {
-  width: 427px;
-  height: 300px;
-  margin: 24px;
-}
-.figure_pic1 {
-  width: 427px;
-  margin-left: 24px;
-  border-radius: 10px;
-  margin-top: 30px;
-}
-.figure_pic2{
-  width: 427px;
-  margin-left: 24px;
-  border-radius: 10px;
-}
-.figure_pic3{
-  width: 427px;
-  margin-left: 24px;
-  border-radius: 10px;
-}
-.article_title {
-  margin-top: 20px;
-  margin-left: 40px;
-}
-.footer_logo{
-  display: none;
-  
-}
-.footer_nav{
-  display: none;
-}
-.footer_icones{
-  margin: 22px 133px;
-}
-/*meore gverdi*/
-.world_section{
-  display: flex;
-  flex-direction: column;
-}
-.worldnew_photo{
-  width: 100%;
-  height: 388px;
-}
-.form_right {
-  width: 100%;
-}
-.form_div{
-  width: 100%;
-}
-.information_div{
-  display: flex;
-  flex-direction: column;
-}
-.page2_text{
-  width: 290%;
-  margin-bottom: 30px;
-}
-.page2_infotext{
-  width: 100%;
-}
-}
-
-@media screen and (max-width: 780px){
-  .container{
-    max-width: 780px;
+  ul {
+    display: none;
   }
-  .section1{
+  .section1 {
     display: flex;
     flex-direction: column;
   }
-  .image_div{
+  .image_div {
+    width: 100%;
+    height: 288px;
+  }
+  .divtext {
+    display: none;
+  }
+  .articles {
+    width: 100%;
+    margin: 10px 0 20px 0;
+  }
+  .trending {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .div1 {
+    width: 100%;
+  }
+  .section3 {
+    width: 100%;
+  }
+  .happening_now {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec3_title {
+    margin-left: 24px;
+  }
+  .large_pic1 {
+    height: 300px;
+    margin-left: 24px;
+  }
+  .large_pic2 {
+    height: 300px;
+    margin: 24px;
+  }
+  .figure_pic1 {
+    width: 427px;
+    margin-left: 24px;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .figure_pic2 {
+    width: 427px;
+    margin-left: 24px;
+    border-radius: 10px;
+  }
+  .figure_pic3 {
+    width: 427px;
+    margin-left: 24px;
+    border-radius: 10px;
+  }
+  .article_title {
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+  .footer_logo {
+    display: none;
+  }
+  .footer_nav {
+    display: none;
+  }
+  .footer_icones {
+    margin: 22px 133px;
+  }
+  /*meore gverdi*/
+  .world_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .worldnew_photo {
+    width: 100%;
+    height: 388px;
+  }
+  .form_right {
+    width: 100%;
+  }
+  .form_div {
+    width: 100%;
+  }
+  .information_div {
+    display: flex;
+    flex-direction: column;
+  }
+  .page2_text {
+    width: 290%;
+    margin-bottom: 30px;
+  }
+  .page2_infotext {
+    width: 100%;
+  }
+  .menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    max-width: 780px;
+  }
+  .section1 {
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+  }
+  .image_div {
     width: 100%;
     height: 399px;
   }
-  .divvs{
+  .divvs {
     display: flex;
     flex-direction: row;
     width: 100%;
-    gap: 235px;
+    gap: 78px;
   }
-  .upper_div{
-    
+  .lorem {
+    width: 100%;
+  }
+  .below_div {
+    margin-right: -211px;
+  }
+  .div1 {
+    width: 100%;
+  }
+  .div1_1 {
+    display: none;
+  }
+  .trending {
+    gap: 30px;
+  }
+  .large_pics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .articles {
+    width: 50%;
+    margin-left: 20px;
+  }
+  .happening_now {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .figure_pic3 {
+    display: none;
+  }
+  .small_pics {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+  }
+
+  .figure_pic1 {
+    margin-top: 69px;
+    border-radius: 8px;
+  }
+  .figure_pic2 {
+    margin-right: 65px;
+    border-radius: 8px;
+  }
+  .world_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .info_section {
+    display: flex;
+    flex-direction: column;
+  }
+  .worldnew_photo {
+    width: 100%;
+  }
+  .page2_text {
+    width: 50%;
+  }
+
+  .logo_text {
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+  }
+  .information_div {
+    display: flex;
+    width: 100%;
+  }
+  .page2_infotext {
+    width: 46%;
   }
 }
-  
